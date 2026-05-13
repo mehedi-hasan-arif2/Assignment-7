@@ -1,16 +1,28 @@
-# React + Vite
+# KeenKeeper - Friendship Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a dedicated dashboard built to help individuals maintain their social bonds. In our busy lives, it's easy to lose track of when we last spoke to a friend. This application solves that by monitoring contact frequency and providing visual reminders to reach out.
 
-Currently, two official plugins are available:
+## Core Features
+* **Dynamic Dashboard**: Overview of all friends with status indicators (On-track, Almost Due, or Overdue) based on contact history.
+* **Interaction Logging**: Quick action buttons to log Calls, Texts, and Video Chats directly into a persistent timeline.
+* **Friendship Analytics**: A detailed Stats page featuring interactive Pie Charts to visualize communication patterns and habits.
+* **Smart Filtering**: An organized Timeline page that allows users to filter their interaction history by type.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technology Stack
+* **UI Library**: React.js
+* **Routing**: React Router DOM (v6)
+* **Styling**: Tailwind CSS for a fully responsive and modern interface.
+* **Data Visualization**: Recharts for dynamic analytics.
+* **Notifications**: React Hot Toast for real-time user feedback.
 
-## React Compiler
+## Setup and Installation
+1. Clone the repository to your local machine.
+2. Run `npm install` to install all necessary dependencies.
+3. Use `npm run dev` to start the development server.
+4. Access the application via `localhost`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
+The app follows a modular component-based architecture, ensuring clean code and easy scalability. It includes custom contexts for state management and reusable UI components for cards and navigation.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Created for the CSE Web Development Assignment - April 2026.*
