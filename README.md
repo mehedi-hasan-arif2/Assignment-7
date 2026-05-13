@@ -23,6 +23,3 @@ KeenKeeper is a dedicated dashboard built to help individuals maintain their soc
 
 ## Project Structure
 The app follows a modular component-based architecture, ensuring clean code and easy scalability. It includes custom contexts for state management and reusable UI components for cards and navigation.
-
----
-*Created for the CSE Web Development Assignment - April 2026.*
