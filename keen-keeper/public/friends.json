@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Johnson",
+    "picture": "/src/assets/users/1.jpg",
+    "email": "alex.j@example.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["College", "Tech"],
+    "bio": "Software engineer and hiking enthusiast. Met during freshman year.",
+    "goal": 7,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Miller",
+    "picture": "/src/assets/users/2.jpg",
+    "email": "sarah.m@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["Work", "Design"],
+    "bio": "Creative director. We worked together on a project last year.",
+    "goal": 14,
+    "next_due_date": "2026-05-25"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "picture": "/src/assets/users/3.jpg",
+    "email": "michael.b@example.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["Gym", "Neighborhood"],
+    "bio": "Fitness coach and neighbor. Always down for a morning run.",
+    "goal": 10,
+    "next_due_date": "2026-05-18"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "picture": "/src/assets/users/4.jpg",
+    "email": "emily.d@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["Family", "Travel"],
+    "bio": "Cousin who loves exploring new cities. We need to catch up!",
+    "goal": 21,
+    "next_due_date": "2026-05-01"
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "picture": "/src/assets/users/5.jpg",
+    "email": "david.w@example.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["College", "Gaming"],
+    "bio": "Old roommate and gaming buddy. We play Valorant every weekend.",
+    "goal": 7,
+    "next_due_date": "2026-05-20"
+  },
+  {
+    "id": 6,
+    "name": "Jessica Taylor",
+    "picture": "/src/assets/users/6.jpg",
+    "email": "jessica.t@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["Hobby", "Music"],
+    "bio": "Guitarist friend. Met at a local concert. Love talking about jazz.",
+    "goal": 15,
+    "next_due_date": "2026-05-16"
+  },
+  {
+    "id": 7,
+    "name": "Daniel Martinez",
+    "picture": "/src/assets/users/7.jpg",
+    "email": "daniel.m@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["Work", "Close friend"],
+    "bio": "Lead developer. Great mentor and a very close friend.",
+    "goal": 7,
+    "next_due_date": "2026-05-17"
+  },
+  {
+    "id": 8,
+    "name": "Sophia Anderson",
+    "picture": "/src/assets/users/8.jpg",
+    "email": "sophia.a@example.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["School", "Travel"],
+    "bio": "School friend now living in Berlin. Long-distance bestie.",
+    "goal": 30,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 9,
+    "name": "James White",
+    "picture": "/src/assets/users/9.jpg",
+    "email": "james.w@example.com",
+    "days_since_contact": 7,
+    "status": "almost due",
+    "tags": ["Neighborhood", "Tech"],
+    "bio": "System admin and a great help with hardware issues.",
+    "goal": 10,
+    "next_due_date": "2026-05-16"
+  },
+  {
+    "id": 10,
+    "name": "Olivia Thomas",
+    "picture": "/src/assets/users/10.jpg",
+    "email": "olivia.t@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["Hobby", "Art"],
+    "bio": "Skilled illustrator. We often visit art galleries together.",
+    "goal": 14,
+    "next_due_date": "2026-05-22"
+  }
+]
