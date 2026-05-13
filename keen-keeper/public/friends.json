@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Alex Johnson",
-    "picture": "/src/assets/users/1.jpg",
+    "picture": "/src/assets/users/1.jfif",
     "email": "alex.j@example.com",
     "days_since_contact": 15,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Sarah Miller",
-    "picture": "/src/assets/users/2.jpg",
+    "picture": "/src/assets/users/2.jfif",
     "email": "sarah.m@example.com",
     "days_since_contact": 2,
     "status": "on-track",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Michael Brown",
-    "picture": "/src/assets/users/3.jpg",
+    "picture": "/src/assets/users/3.jfif",
     "email": "michael.b@example.com",
     "days_since_contact": 8,
     "status": "almost due",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Emily Davis",
-    "picture": "/src/assets/users/4.jpg",
+    "picture": "/src/assets/users/4.jfif",
     "email": "emily.d@example.com",
     "days_since_contact": 30,
     "status": "overdue",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "David Wilson",
-    "picture": "/src/assets/users/5.jpg",
+    "picture": "/src/assets/users/5.jfif",
     "email": "david.w@example.com",
     "days_since_contact": 1,
     "status": "on-track",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Jessica Taylor",
-    "picture": "/src/assets/users/6.jpg",
+    "picture": "/src/assets/users/6.jfif",
     "email": "jessica.t@example.com",
     "days_since_contact": 12,
     "status": "almost due",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Daniel Martinez",
-    "picture": "/src/assets/users/7.jpg",
+    "picture": "/src/assets/users/7.jfif",
     "email": "daniel.m@example.com",
     "days_since_contact": 3,
     "status": "on-track",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Sophia Anderson",
-    "picture": "/src/assets/users/8.jpg",
+    "picture": "/src/assets/users/8.jfif",
     "email": "sophia.a@example.com",
     "days_since_contact": 45,
     "status": "overdue",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "James White",
-    "picture": "/src/assets/users/9.jpg",
+    "picture": "/src/assets/users/9.jfif",
     "email": "james.w@example.com",
     "days_since_contact": 7,
     "status": "almost due",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Olivia Thomas",
-    "picture": "/src/assets/users/10.jpg",
+    "picture": "/src/assets/users/10.jfif",
     "email": "olivia.t@example.com",
     "days_since_contact": 5,
     "status": "on-track",

@@ -1,7 +1,18 @@
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
+import FriendCard from "../components/FriendCard";
 
 const Home = () => {
+  const [friends, setFriends] = useState([]);
+
+  useEffect(() => {
+    // friends.json data fetching
+    fetch("/friends.json")
+      .then((res) => res.json())
+      .then((data) => setFriends(data))
+      .catch((error) => console.error("Error fetching data:", error));
+  }, []);
+
   return (
     <div className="bg-[#F9FBFA] min-h-screen pb-10">
       <Navbar />
@@ -19,18 +30,22 @@ const Home = () => {
         </button>
       </div>
 
-      {/* Summary Cards */}
+      {/* Summary Cards - Dynamic */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto px-6 mb-16">
         <div className="bg-white p-8 rounded-2xl border border-gray-100 text-center shadow-sm">
-          <h2 className="text-3xl font-bold text-gray-800">10</h2>
+          <h2 className="text-3xl font-bold text-gray-800">{friends.length}</h2>
           <p className="text-gray-500 mt-1">Total Friends</p>
         </div>
         <div className="bg-white p-8 rounded-2xl border border-gray-100 text-center shadow-sm">
-          <h2 className="text-3xl font-bold text-gray-800">3</h2>
+          <h2 className="text-3xl font-bold text-gray-800">
+            {friends.filter(f => f.status === "on-track").length}
+          </h2>
           <p className="text-gray-500 mt-1">On Track</p>
         </div>
         <div className="bg-white p-8 rounded-2xl border border-gray-100 text-center shadow-sm">
-          <h2 className="text-3xl font-bold text-gray-800">6</h2>
+          <h2 className="text-3xl font-bold text-gray-800">
+            {friends.filter(f => f.status !== "on-track").length}
+          </h2>
           <p className="text-gray-500 mt-1">Need Attention</p>
         </div>
         <div className="bg-white p-8 rounded-2xl border border-gray-100 text-center shadow-sm">
@@ -41,9 +56,12 @@ const Home = () => {
 
       <div className="max-w-6xl mx-auto px-6">
         <h3 className="text-2xl font-bold text-gray-800 mb-8">Your Friends</h3>
-        {/* Friend Cards are coming next... */}
+        
+        {/* Friend mapping starts here */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-             {/* Friend mapping will go here */}
+          {friends.map((friend) => (
+            <FriendCard key={friend.id} friend={friend} />
+          ))}
         </div>
       </div>
     </div>
