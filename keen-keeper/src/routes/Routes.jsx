@@ -3,14 +3,14 @@ import App from "../App";
 import Home from "../pages/Home";
 import Timeline from "../pages/Timeline";
 import Stats from "../pages/Stats";
-import ErrorPage from "../pages/ErrorPage";
+import ErrorPage from "../pages/ErrorPage"; 
 import FriendDetails from "../pages/FriendDetails"; 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <ErrorPage />,
+    errorElement: <ErrorPage />, 
     children: [
       {
         path: "/",
@@ -27,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/friend/:id", 
         element: <FriendDetails />,
+      },
+      {
+        path: "*",
+        element: <ErrorPage />, 
       },
     ],
   },
